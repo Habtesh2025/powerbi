@@ -1,0 +1,5 @@
+relationship 84679c84-8777-4967-97dd-8303d20d6504
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Energy_Data.Date
+	toColumn: LocalDateTable_64f005ff-9c40-432d-97b8-07dd0733aa65.Date
+

@@ -1,0 +1,612 @@
+table Energy_Data
+	lineageTag: a664b05b-be28-44cf-91ac-4f9a65fbd81f
+
+	column Index
+		dataType: int64
+		formatString: #,0
+		lineageTag: dab3feba-fc4c-46dd-a98c-b533a86fb6d1
+		summarizeBy: sum
+		sourceColumn: Index
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation __PBI_SemanticLinks = [{"LinkTarget":{"TableName":"Energy_Data","TableItemName":"Index (bins)","ObjectType":4},"LinkType":"UsedInGroup"}]
+
+	column Appliances
+		dataType: int64
+		formatString: #,0.00
+		lineageTag: a15234e4-16a5-4ef6-9b49-e8ae1e2f294a
+		summarizeBy: sum
+		sourceColumn: Appliances
+
+		annotation SummarizationSetBy = Automatic
+
+	column lights
+		dataType: int64
+		formatString: #,0.00
+		lineageTag: 09601d11-a7a9-4ce5-8e99-af3fc4565ebf
+		summarizeBy: sum
+		sourceColumn: lights
+
+		annotation SummarizationSetBy = Automatic
+
+	column T1
+		dataType: double
+		formatString: 0
+		lineageTag: 06cf617d-b7b0-45ee-9170-5d86818b04c5
+		summarizeBy: sum
+		sourceColumn: T1
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column RH_1
+		dataType: double
+		formatString: 0
+		lineageTag: 6777c5b4-2350-4d0a-b611-a8e3cb96a032
+		summarizeBy: sum
+		sourceColumn: RH_1
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column T2
+		dataType: double
+		formatString: 0
+		lineageTag: eb65cd01-ba44-4a34-9945-f2891c2ab4b7
+		summarizeBy: sum
+		sourceColumn: T2
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column RH_2
+		dataType: double
+		formatString: 0
+		lineageTag: ce862393-b84b-47ea-8d10-ad1ddb5fa2d1
+		summarizeBy: sum
+		sourceColumn: RH_2
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column T3
+		dataType: double
+		formatString: 0
+		lineageTag: 0705e852-866d-4efc-8b03-1c0d7497192b
+		summarizeBy: sum
+		sourceColumn: T3
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column RH_3
+		dataType: double
+		formatString: 0
+		lineageTag: db26f02c-023d-4eb2-b593-db12b4af5753
+		summarizeBy: sum
+		sourceColumn: RH_3
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column T4
+		dataType: double
+		formatString: 0
+		lineageTag: f9f17397-bb08-40e8-b078-a440dced247a
+		summarizeBy: sum
+		sourceColumn: T4
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column RH_4
+		dataType: double
+		formatString: 0
+		lineageTag: 570122aa-ff67-4799-af7c-cb6ec9bc2896
+		summarizeBy: sum
+		sourceColumn: RH_4
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column T5
+		dataType: double
+		formatString: 0
+		lineageTag: 9bddc86b-c1f0-4cd5-a687-a119eb5e98e3
+		summarizeBy: sum
+		sourceColumn: T5
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column RH_5
+		dataType: double
+		formatString: 0
+		lineageTag: 63065626-b048-4eb0-b572-e535a4470df7
+		summarizeBy: sum
+		sourceColumn: RH_5
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column T6
+		dataType: double
+		formatString: 0
+		lineageTag: 57bb72f0-fa26-4cd6-8903-85c56f010e54
+		summarizeBy: sum
+		sourceColumn: T6
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column RH_6
+		dataType: double
+		formatString: 0
+		lineageTag: 8ba5d406-6ab2-4457-be73-bf46caf44ea7
+		summarizeBy: sum
+		sourceColumn: RH_6
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column T7
+		dataType: double
+		formatString: 0
+		lineageTag: 37fd8cb8-a581-4193-b364-3561fa5bb0c9
+		summarizeBy: sum
+		sourceColumn: T7
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column RH_7
+		dataType: double
+		formatString: 0
+		lineageTag: 0532ebc1-d213-4ac4-8de5-569b424678c7
+		summarizeBy: sum
+		sourceColumn: RH_7
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column T8
+		dataType: double
+		formatString: 0
+		lineageTag: ca8b845b-80e5-40ca-a1eb-fe06aa3f1465
+		summarizeBy: sum
+		sourceColumn: T8
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column RH_8
+		dataType: double
+		formatString: 0
+		lineageTag: b5fada3c-dc4b-40dc-8230-433b8e1053c8
+		summarizeBy: sum
+		sourceColumn: RH_8
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column T9
+		dataType: double
+		formatString: 0
+		lineageTag: 2d72de4d-0dfd-4db0-b1dc-12cc7d3d2690
+		summarizeBy: sum
+		sourceColumn: T9
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column RH_9
+		dataType: double
+		formatString: 0
+		lineageTag: ce1be07a-dfba-448a-8582-087722bba31d
+		summarizeBy: sum
+		sourceColumn: RH_9
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column T_out
+		dataType: double
+		formatString: 0
+		lineageTag: a7cfca4a-271c-4933-acbf-8d8d09f7137a
+		summarizeBy: sum
+		sourceColumn: T_out
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column Press_mm_hg
+		dataType: double
+		formatString: 0
+		lineageTag: 380dd818-c3cc-4ef5-85f6-4e1b4ce27a8c
+		summarizeBy: sum
+		sourceColumn: Press_mm_hg
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column RH_out
+		dataType: double
+		formatString: 0
+		lineageTag: 9ead9d19-0fe8-4b0a-a3b7-aa1b3eeb278b
+		summarizeBy: sum
+		sourceColumn: RH_out
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column Windspeed
+		dataType: double
+		formatString: 0
+		lineageTag: 1bad5bd8-9bf6-4d1a-acbf-db4e2c21bfd5
+		summarizeBy: sum
+		sourceColumn: Windspeed
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column Visibility
+		dataType: double
+		formatString: 0
+		lineageTag: 4cb8c6a8-a5d5-42f9-855d-1349b4c064a8
+		summarizeBy: sum
+		sourceColumn: Visibility
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column Tdewpoint
+		dataType: double
+		formatString: 0
+		lineageTag: 9ebded6b-5cca-4cd7-8981-e8c3e474c9ea
+		summarizeBy: sum
+		sourceColumn: Tdewpoint
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column RV1
+		dataType: double
+		formatString: 0
+		lineageTag: 721e88d7-56fb-4bca-9f02-1ca90d871b2a
+		summarizeBy: sum
+		sourceColumn: RV1
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column 'RV 2'
+		dataType: double
+		formatString: 0
+		lineageTag: 4d80d8bc-f009-4df0-9a10-4b0436848b7d
+		summarizeBy: sum
+		sourceColumn: RV 2
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+		annotation __PBI_SemanticLinks = [{"LinkTarget":{"TableName":"Energy_Data","TableItemName":"RV 2 (bins)","ObjectType":4},"LinkType":"UsedInGroup"}]
+
+	column Date
+		dataType: dateTime
+		formatString: m/d/yyyy
+		lineageTag: d25741e4-c9e1-48e2-b7d9-fc60b637e64b
+		summarizeBy: none
+		sourceColumn: Date
+
+		variation Variation
+			isDefault
+			relationship: 84679c84-8777-4967-97dd-8303d20d6504
+			defaultHierarchy: LocalDateTable_64f005ff-9c40-432d-97b8-07dd0733aa65.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	column Time
+		dataType: dateTime
+		formatString: Long Time
+		lineageTag: 150ba21e-fcb4-4776-98ac-0418bd835669
+		summarizeBy: none
+		sourceColumn: Time
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Time
+
+	column 'Index (bins)' =
+			VAR __Count = 10
+			
+			VAR __Min = MIN('Energy_Data'[Index])
+			
+			VAR __Max = MAX('Energy_Data'[Index])
+			
+			VAR __Difference = (__Max - __Min)
+			
+			VAR __Size = IF(__Difference > 0, __Difference / __Count, 1)
+			
+			VAR __BinNumber = INT(('Energy_Data'[Index] - __Min) / __Size)
+			
+			RETURN
+				IF(
+					ISBLANK('Energy_Data'[Index]),
+					BLANK(),
+					__Min + (MIN(__BinNumber, __Count - 1) * __Size)
+				)
+		lineageTag: 81e37b93-28ec-4d04-9fd4-4eaec7d26e7d
+		summarizeBy: none
+
+		extendedProperty GroupingMetadata =
+				{
+				  "version": 0,
+				  "groupedColumns": [
+				    {
+				      "Column": {
+				        "Expression": {
+				          "SourceRef": {
+				            "Entity": "Energy_Data"
+				          }
+				        },
+				        "Property": "Index"
+				      }
+				    }
+				  ]
+				}
+
+		annotation GroupingDesignState = {"Version":0,"Sources":[{"Name":"e","Entity":"Energy_Data"}],"GroupedColumns":[{"Column":{"Expression":{"SourceRef":{"Source":"e"}},"Property":"Index"}}],"BinItem":{"Expression":{"Member":{"Expression":{"Discretize":{"Expression":{"Column":{"Expression":{"SourceRef":{"Source":"e"}},"Property":"Index"}},"Count":10}},"Member":"Min"}}}}
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'RV 2 (bins)' = ```
+			VAR __Count = 8
+			
+			VAR __Min = MIN('Energy_Data'[RV 2])
+			
+			VAR __Max = MAX('Energy_Data'[RV 2])
+			
+			VAR __Difference = (__Max - __Min)
+			
+			VAR __Size = IF(__Difference > 0, __Difference / __Count, 1)
+			
+			VAR __BinNumber = 
+				IF(
+					ISBLANK('Energy_Data'[RV 2]),
+					BLANK(),
+					ROUNDDOWN(('Energy_Data'[RV 2] - __Min) / __Size, 0)
+				)
+			
+			RETURN
+				IF(
+					ISBLANK('Energy_Data'[RV 2]),
+					BLANK(),
+					__Min + (MIN(__BinNumber, __Count - 1) * __Size)
+				)
+			```
+		formatString: 0.00
+		lineageTag: 6d3e7bb2-ac1d-4685-9b25-16a49a51daa8
+		summarizeBy: none
+
+		extendedProperty GroupingMetadata =
+				{
+				  "version": 0,
+				  "groupedColumns": [
+				    {
+				      "Column": {
+				        "Expression": {
+				          "SourceRef": {
+				            "Entity": "Energy_Data"
+				          }
+				        },
+				        "Property": "RV 2"
+				      }
+				    }
+				  ]
+				}
+
+		annotation GroupingDesignState = {"Version":0,"Sources":[{"Name":"e","Entity":"Energy_Data"}],"GroupedColumns":[{"Column":{"Expression":{"SourceRef":{"Source":"e"}},"Property":"RV 2"}}],"BinItem":{"Expression":{"Member":{"Expression":{"Discretize":{"Expression":{"Column":{"Expression":{"SourceRef":{"Source":"e"}},"Property":"RV 2"}},"Count":8}},"Member":"Min"}}}}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Total Energy' = (Energy_Data[Appliances]+Energy_Data[lights])
+		formatString: 0.00
+		lineageTag: b82ca900-2a47-45c6-b4ef-228ab72feea6
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Internal Temp' = ((Energy_Data[T1]+Energy_Data[T2]+Energy_Data[T3]+Energy_Data[T4]+Energy_Data[T5]+Energy_Data[T6]+Energy_Data[T7]+Energy_Data[T8])+Energy_Data[T9])/9
+		formatString: 0
+		lineageTag: b2f8dac2-b1e6-4016-b847-231986fd8662
+		summarizeBy: average
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column 'Internal Humidity' = (Energy_Data[RH_1]+Energy_Data[RH_2]+Energy_Data[RH_3]+Energy_Data[RH_4]+Energy_Data[RH_5]+Energy_Data[RH_6]+Energy_Data[RH_7]+Energy_Data[RH_8]+Energy_Data[RH_9])/9
+		formatString: 0
+		lineageTag: cbcd261d-30dd-4a64-8306-61a86db8fbd9
+		summarizeBy: average
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+		annotation __PBI_SemanticLinks = [{"LinkTarget":{"TableName":"Energy_Data","TableItemName":"Internal Humidity (bins)","ObjectType":4},"LinkType":"UsedInGroup"}]
+
+	column 'Confort Index' = (Energy_Data[Internal Temp] + 0.1 * (Energy_Data[Internal Humidity]))
+		lineageTag: 3e6a1e8b-b5e6-4864-a922-a07706428a32
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Energy per Celicios' = DIVIDE(Energy_Data[Appliances],Energy_Data[Internal Temp])
+		formatString: #,0
+		lineageTag: feb43c10-f0fa-4f17-a2b1-db59290b9407
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column Hour = HOUR(Energy_Data[Time])
+		formatString: 0
+		lineageTag: 66e6bb31-64c3-4600-827a-1bf3009af1dd
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation __PBI_SemanticLinks = [{"LinkTarget":{"TableName":"Energy_Data","TableItemName":"Hour (bins)","ObjectType":4},"LinkType":"UsedInGroup"}]
+
+	column 'Hour (bins)' =
+			VAR __Count = 4
+			
+			VAR __Min = MIN('Energy_Data'[Hour])
+			
+			VAR __Max = MAX('Energy_Data'[Hour])
+			
+			VAR __Difference = (__Max - __Min)
+			
+			VAR __Size = IF(__Difference > 0, __Difference / __Count, 1)
+			
+			VAR __BinNumber = INT(('Energy_Data'[Hour] - __Min) / __Size)
+			
+			RETURN
+				IF(
+					ISBLANK('Energy_Data'[Hour]),
+					BLANK(),
+					__Min + (MIN(__BinNumber, __Count - 1) * __Size)
+				)
+		lineageTag: 7ab2eb1f-dcc5-4c0c-a484-b2074abcc15a
+		summarizeBy: none
+
+		extendedProperty GroupingMetadata =
+				{
+				  "version": 0,
+				  "groupedColumns": [
+				    {
+				      "Column": {
+				        "Expression": {
+				          "SourceRef": {
+				            "Entity": "Energy_Data"
+				          }
+				        },
+				        "Property": "Hour"
+				      }
+				    }
+				  ]
+				}
+
+		annotation GroupingDesignState = {"Version":0,"Sources":[{"Name":"e","Entity":"Energy_Data"}],"GroupedColumns":[{"Column":{"Expression":{"SourceRef":{"Source":"e"}},"Property":"Hour"}}],"BinItem":{"Expression":{"Member":{"Expression":{"Discretize":{"Expression":{"Column":{"Expression":{"SourceRef":{"Source":"e"}},"Property":"Hour"}},"Count":4}},"Member":"Min"}}}}
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Internal Humidity (bins)' = ```
+			VAR __Count = 10
+			
+			VAR __Min = MIN('Energy_Data'[Internal Humidity])
+			
+			VAR __Max = MAX('Energy_Data'[Internal Humidity])
+			
+			VAR __Difference = (__Max - __Min)
+			
+			VAR __Size = IF(__Difference > 0, __Difference / __Count, 1)
+			
+			VAR __BinNumber = 
+				IF(
+					ISBLANK('Energy_Data'[Internal Humidity]),
+					BLANK(),
+					ROUNDDOWN(('Energy_Data'[Internal Humidity] - __Min) / __Size, 0)
+				)
+			
+			RETURN
+				IF(
+					ISBLANK('Energy_Data'[Internal Humidity]),
+					BLANK(),
+					__Min + (MIN(__BinNumber, __Count - 1) * __Size)
+				)
+			```
+		formatString: 0.00
+		lineageTag: 7351c439-b6c2-4603-b5a1-936bbc193328
+		summarizeBy: none
+
+		extendedProperty GroupingMetadata =
+				{
+				  "version": 0,
+				  "groupedColumns": [
+				    {
+				      "Column": {
+				        "Expression": {
+				          "SourceRef": {
+				            "Entity": "Energy_Data"
+				          }
+				        },
+				        "Property": "Internal Humidity"
+				      }
+				    }
+				  ]
+				}
+
+		annotation GroupingDesignState = {"Version":0,"Sources":[{"Name":"e","Entity":"Energy_Data"}],"GroupedColumns":[{"Column":{"Expression":{"SourceRef":{"Source":"e"}},"Property":"Internal Humidity"}}],"BinItem":{"Expression":{"Member":{"Expression":{"Discretize":{"Expression":{"Column":{"Expression":{"SourceRef":{"Source":"e"}},"Property":"Internal Humidity"}},"Count":10}},"Member":"Min"}}}}
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Energy_Data = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\habta\OneDrive\Desktop\New folder\Operation\KAG_energydata_complete.csv"),[Delimiter=",", Columns=29, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"date", type datetime}, {"Appliances", Int64.Type}, {"lights", Int64.Type}, {"T1", type number}, {"RH_1", type number}, {"T2", type number}, {"RH_2", type number}, {"T3", type number}, {"RH_3", type number}, {"T4", type number}, {"RH_4", type number}, {"T5", type number}, {"RH_5", type number}, {"T6", type number}, {"RH_6", type number}, {"T7", type number}, {"RH_7", type number}, {"T8", type number}, {"RH_8", type number}, {"T9", type number}, {"RH_9", type number}, {"T_out", type number}, {"Press_mm_hg", type number}, {"RH_out", type number}, {"Windspeed", type number}, {"Visibility", type number}, {"Tdewpoint", type number}, {"rv1", type number}, {"rv2", type number}}),
+				    #"Inserted Date" = Table.AddColumn(#"Changed Type", "Date.1", each DateTime.Date([date]), type date),
+				    #"Inserted Time" = Table.AddColumn(#"Inserted Date", "Time", each DateTime.Time([date]), type time),
+				    #"Removed Columns" = Table.RemoveColumns(#"Inserted Time",{"date"}),
+				    #"Added Index" = Table.AddIndexColumn(#"Removed Columns", "Index", 1, 1, Int64.Type),
+				    #"Reordered Columns" = Table.ReorderColumns(#"Added Index",{"Index", "Appliances", "lights", "T1", "RH_1", "T2", "RH_2", "T3", "RH_3", "T4", "RH_4", "T5", "RH_5", "T6", "RH_6", "T7", "RH_7", "T8", "RH_8", "T9", "RH_9", "T_out", "Press_mm_hg", "RH_out", "Windspeed", "Visibility", "Tdewpoint", "rv1", "rv2", "Date.1", "Time"}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Reordered Columns",{{"rv1", "RV1"}, {"rv2", "RV 2"}, {"Date.1", "Date"}})
+				in
+				    #"Renamed Columns"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

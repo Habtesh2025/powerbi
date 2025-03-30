@@ -1,0 +1,294 @@
+{
+  "config": "{\"version\":\"5.61\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.61\",\"type\":2},\"customTheme\":{\"name\":\"Innovate\",\"version\":\"5.61\",\"type\":2}},\"activeSectionIndex\":1,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          },
+          {
+            "name": "Innovate",
+            "path": "BuiltInThemes/Innovate.json",
+            "type": 201
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Calculation",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "4d489c4b6deb3ac8a6cc",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"1ec9928be009e4500ebd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":391.15384615384613,\"y\":0,\"z\":5000,\"width\":181.15384615384616,\"height\":163.84615384615384,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Energy_Data.Press_mm_hg)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Press_mm_hg\"}},\"Function\":1},\"Name\":\"Sum(Energy_Data.Press_mm_hg)\",\"NativeReferenceName\":\"Average of Press_mm_hg\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Press_mm_hg\"}},\"Function\":1}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 163.85,
+          "width": 181.15,
+          "x": 391.15,
+          "y": 0.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"3299b1f00a80a0c5a6c5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":587.3076923076923,\"z\":8000,\"width\":279.2307692307692,\"height\":98.07692307692308,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"advancedSlicerVisual\",\"projections\":{\"Values\":[{\"queryRef\":\"Energy_Data.Hour\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Hour\"},\"Name\":\"Energy_Data.Hour\",\"NativeReferenceName\":\"Hour\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"data\":[{\"properties\":{}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Hour\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"0L\"}}]]}}}]}}}}]}}}",
+          "filters": "[]",
+          "height": 98.08,
+          "width": 279.23,
+          "x": 0.00,
+          "y": 587.31,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"41623ae25c0d1a9cd579\",\"layouts\":[{\"id\":0,\"position\":{\"x\":795,\"y\":0,\"z\":3000,\"width\":148.84615384615384,\"height\":178.84615384615384,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Energy_Data.Windspeed)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Windspeed\"}},\"Function\":1},\"Name\":\"Sum(Energy_Data.Windspeed)\",\"NativeReferenceName\":\"Average of Windspeed\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Windspeed\"}},\"Function\":1}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 178.85,
+          "width": 148.85,
+          "x": 795.00,
+          "y": 0.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"4baef946a0b8058675e3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":391.15384615384613,\"y\":180,\"z\":9000,\"width\":376.15384615384613,\"height\":253.84615384615384,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(Energy_Data.Date.1)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Date\"}},\"Function\":2},\"Name\":\"Min(Energy_Data.Date.1)\",\"NativeReferenceName\":\"Count of Date\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Date\"}},\"Function\":2}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 253.85,
+          "width": 376.15,
+          "x": 391.15,
+          "y": 180.00,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"56e8c894e1024d04b68e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1020,\"y\":12.692307692307692,\"z\":6000,\"width\":167.3076923076923,\"height\":153.46153846153845,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Energy_Data.RH_out)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"RH_out\"}},\"Function\":1},\"Name\":\"Sum(Energy_Data.RH_out)\",\"NativeReferenceName\":\"Average of RH_out\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"RH_out\"}},\"Function\":1}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 153.46,
+          "width": 167.31,
+          "x": 1020.00,
+          "y": 12.69,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"620f0c934aa9e208c988\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":388.8461538461538,\"z\":4000,\"width\":211.15384615384616,\"height\":150,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Energy_Data.RV1)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"RV1\"}},\"Function\":1},\"Name\":\"Sum(Energy_Data.RV1)\",\"NativeReferenceName\":\"Average of RV1\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"RV1\"}},\"Function\":1}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 150.00,
+          "width": 211.15,
+          "x": 0.00,
+          "y": 388.85,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"718248e875acb3c3cd7a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":221,\"y\":390,\"width\":170,\"height\":150,\"z\":12000,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Avg(Energy_Data.Internal Temp)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Internal Temp\"}},\"Function\":1},\"Name\":\"Avg(Energy_Data.Internal Temp)\",\"NativeReferenceName\":\"Average of Internal Temp\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Internal Temp\"}},\"Function\":1}}}]},\"autoSelectVisualType\":true,\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 150.00,
+          "width": 170.00,
+          "x": 221.00,
+          "y": 390.00,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"7e9d9c8978d728649085\",\"layouts\":[{\"id\":0,\"position\":{\"x\":189.23076923076923,\"y\":0,\"z\":2000,\"width\":169.6153846153846,\"height\":153.46153846153845,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Energy_Data.Visibility)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Visibility\"}},\"Function\":1},\"Name\":\"Sum(Energy_Data.Visibility)\",\"NativeReferenceName\":\"Average of Visibility\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Visibility\"}},\"Function\":1}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 153.46,
+          "width": 169.62,
+          "x": 189.23,
+          "y": 0.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"86253171a3d600c0510c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":589.6153846153846,\"y\":0,\"z\":7000,\"width\":177.69230769230768,\"height\":144.23076923076923,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Energy_Data.T_out)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"T_out\"}},\"Function\":1},\"Name\":\"Sum(Energy_Data.T_out)\",\"NativeReferenceName\":\"Average of T_out\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"T_out\"}},\"Function\":1}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 144.23,
+          "width": 177.69,
+          "x": 589.62,
+          "y": 0.00,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"a1d1df70206eb6004b87\",\"layouts\":[{\"id\":0,\"position\":{\"x\":221.4936247723133,\"y\":179.5264116575592,\"z\":11000,\"width\":201.67577413479054,\"height\":209.8360655737705,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Energy_Data.Internal Humidity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Internal Humidity\"}},\"Function\":1},\"Name\":\"Sum(Energy_Data.Internal Humidity)\",\"NativeReferenceName\":\"Average of Internal Humidity\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Internal Humidity\"}},\"Function\":1}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 209.84,
+          "width": 201.68,
+          "x": 221.49,
+          "y": 179.53,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"a5d2a481da87e99cc9dc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":481.45719489981786,\"y\":512.9326047358834,\"z\":13000,\"width\":226.15664845173043,\"height\":149.21675774134792,\"tabOrder\":13000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Energy_Data.Confort Index)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Confort Index\"}},\"Function\":1},\"Name\":\"Sum(Energy_Data.Confort Index)\",\"NativeReferenceName\":\"Average of Confort Index\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Confort Index\"}},\"Function\":1}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 149.22,
+          "width": 226.16,
+          "x": 481.46,
+          "y": 512.93,
+          "z": 13000.00
+        },
+        {
+          "config": "{\"name\":\"be2797c4311a78917501\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10.384615384615385,\"y\":0,\"z\":0,\"width\":211.15384615384616,\"height\":200.76923076923077,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Energy_Data.Appliances)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Appliances\"}},\"Function\":0},\"Name\":\"Sum(Energy_Data.Appliances)\",\"NativeReferenceName\":\"Sum of Appliances\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Appliances\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 200.77,
+          "width": 211.15,
+          "x": 10.38,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"c94bc3bc9436c9527d5e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":616.6848816029144,\"y\":153.87978142076503,\"z\":14000,\"width\":252.96903460837888,\"height\":130.56466302367943,\"tabOrder\":14000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Energy_Data.Energy per Celicios)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Energy per Celicios\"}},\"Function\":1},\"Name\":\"Sum(Energy_Data.Energy per Celicios)\",\"NativeReferenceName\":\"Average of Energy per Celicios\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Energy per Celicios\"}},\"Function\":1}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 130.56,
+          "width": 252.97,
+          "x": 616.68,
+          "y": 153.88,
+          "z": 14000.00
+        },
+        {
+          "config": "{\"name\":\"caa569ac7069901b5ce0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1046,\"y\":261,\"width\":150,\"height\":240,\"z\":15000,\"tabOrder\":15000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Energy_Data.Hour)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Hour\"}},\"Function\":1},\"Name\":\"Sum(Energy_Data.Hour)\",\"NativeReferenceName\":\"Average of Hour\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Hour\"}},\"Function\":1}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 150.00,
+          "x": 1046.00,
+          "y": 261.00,
+          "z": 15000.00
+        },
+        {
+          "config": "{\"name\":\"d1192188b110db6bca8e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10.384615384615385,\"y\":180,\"z\":1000,\"width\":191.53846153846152,\"height\":208.84615384615384,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Energy_Data.lights)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"lights\"}},\"Function\":0},\"Name\":\"Sum(Energy_Data.lights)\",\"NativeReferenceName\":\"Sum of lights\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"lights\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 208.85,
+          "width": 191.54,
+          "x": 10.38,
+          "y": 180.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"de1925f00a0c975e33a0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":819.5264116575593,\"y\":261.12932604735886,\"z\":10000,\"width\":226.15664845173043,\"height\":240.1457194899818,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Energy_Data.Total Energy)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Total Energy\"}},\"Function\":0},\"Name\":\"Sum(Energy_Data.Total Energy)\",\"NativeReferenceName\":\"Sum of Total Energy\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Total Energy\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 240.15,
+          "width": 226.16,
+          "x": 819.53,
+          "y": 261.13,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"f4d28986808097d2c435\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1075.1022838727758,\"y\":561.3461538461538,\"width\":204.89771612722416,\"height\":150,\"z\":16000,\"tabOrder\":16000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Energy_Data.Hour)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Hour\"}},\"Function\":0},\"Name\":\"Sum(Energy_Data.Hour)\",\"NativeReferenceName\":\"Sum of Hour\"}]},\"autoSelectVisualType\":true,\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 150.00,
+          "width": 204.90,
+          "x": 1075.10,
+          "y": 561.35,
+          "z": 16000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.4}}}}}}}]}}",
+      "displayName": "Dashboard",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 800.00,
+      "name": "7e33d5f88389c071862d",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"12be1ea87b325e6e0ebc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":197.46835443037975,\"y\":558.2278481012657,\"z\":4000,\"width\":510.126582278481,\"height\":220.25316455696202,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"stackedAreaChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Energy_Data.Appliances\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Energy_Data.Energy per Celicios)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Appliances\"},\"Name\":\"Energy_Data.Appliances\",\"NativeReferenceName\":\"Appliances\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Energy per Celicios\"}},\"Function\":0},\"Name\":\"Sum(Energy_Data.Energy per Celicios)\",\"NativeReferenceName\":\"Energy per day\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Energy per Celicios\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(Energy_Data.Energy per Celicios)\":{\"displayName\":\"Energy per day\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Energy Per Day vs Appliances'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 220.25,
+          "width": 510.13,
+          "x": 197.47,
+          "y": 558.23,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"2c80bfcf240235031311\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10.491803278688526,\"y\":188.85245901639345,\"z\":0,\"width\":146.88524590163934,\"height\":62.950819672131146,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"\"}]}]}}]}}}",
+          "filters": "[]",
+          "height": 62.95,
+          "width": 146.89,
+          "x": 10.49,
+          "y": 188.85,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"30258405c2cd5305c316\",\"layouts\":[{\"id\":0,\"position\":{\"x\":11.39240506329114,\"y\":2.531645569620253,\"z\":10000,\"width\":1005.0632911392405,\"height\":78.48101265822784,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"\"}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"                              ENERGY CONSUMEPTION DASHBOARD\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"DIN\",\"fontSize\":\"32px\",\"color\":\"#8dc0e6\"}}],\"horizontalTextAlignment\":\"center\"}]}}]}}}",
+          "filters": "[]",
+          "height": 78.48,
+          "width": 1005.06,
+          "x": 11.39,
+          "y": 2.53,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"75d1da6f6bb5885873ad\",\"layouts\":[{\"id\":0,\"position\":{\"x\":11.39240506329114,\"y\":81.01265822784809,\"z\":1000,\"width\":184.81012658227849,\"height\":706.3291139240506,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"Sum(Energy_Data.Appliances)\"},{\"queryRef\":\"Sum(Energy_Data.lights)\"},{\"queryRef\":\"Sum(Energy_Data.Total Energy)\"},{\"queryRef\":\"Avg(Energy_Data.Internal Humidity)\"},{\"queryRef\":\"Avg(Energy_Data.Internal Temp)\"},{\"queryRef\":\"Min(Energy_Data.Date)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Appliances\"}},\"Function\":0},\"Name\":\"Sum(Energy_Data.Appliances)\",\"NativeReferenceName\":\"Appliances\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"lights\"}},\"Function\":0},\"Name\":\"Sum(Energy_Data.lights)\",\"NativeReferenceName\":\" Lights\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Total Energy\"}},\"Function\":0},\"Name\":\"Sum(Energy_Data.Total Energy)\",\"NativeReferenceName\":\"Total Energy (w-h)\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Internal Humidity\"}},\"Function\":1},\"Name\":\"Avg(Energy_Data.Internal Humidity)\",\"NativeReferenceName\":\"Humidity\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Internal Temp\"}},\"Function\":1},\"Name\":\"Avg(Energy_Data.Internal Temp)\",\"NativeReferenceName\":\"Temprature\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Date\"}},\"Function\":2},\"Name\":\"Min(Energy_Data.Date)\",\"NativeReferenceName\":\"Total Date\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Appliances\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(Energy_Data.Appliances)\":{\"formatString\":\"0.00\",\"displayName\":\"Appliances\"},\"Sum(Energy_Data.lights)\":{\"displayName\":\" Lights\"},\"Sum(Energy_Data.Total Energy)\":{\"displayName\":\"Total Energy (w-h)\"},\"Avg(Energy_Data.Internal Humidity)\":{\"displayName\":\"Humidity\"},\"Avg(Energy_Data.Internal Temp)\":{\"displayName\":\"Temprature\"},\"Min(Energy_Data.Date)\":{\"displayName\":\"Total Date\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"layout\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"maxTiles\":{\"expr\":{\"Literal\":{\"Value\":\"6L\"}}}}}],\"value\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}},\"selector\":{\"id\":\"default\"}},{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.4}}}}}},\"selector\":{\"metadata\":\"Avg(Energy_Data.Internal Temp)\"}},{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":9,\"Percent\":0.2}}}}}},\"selector\":{\"metadata\":\"Sum(Energy_Data.Total Energy)\"}},{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":5,\"Percent\":-0.25}}}}}},\"selector\":{\"metadata\":\"Avg(Energy_Data.Internal Humidity)\"}},{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}}},\"selector\":{\"metadata\":\"Sum(Energy_Data.lights)\"}},{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":7,\"Percent\":0.2}}}}}},\"selector\":{\"metadata\":\"Sum(Energy_Data.Appliances)\"}}],\"label\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":9,\"Percent\":0.2}}}}}},\"selector\":{\"metadata\":\"Sum(Energy_Data.Total Energy)\"}},{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":5,\"Percent\":-0.25}}}}}},\"selector\":{\"metadata\":\"Avg(Energy_Data.Internal Humidity)\"}},{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}}},\"selector\":{\"metadata\":\"Sum(Energy_Data.lights)\"}},{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.4}}}}}},\"selector\":{\"metadata\":\"Avg(Energy_Data.Internal Temp)\"}},{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":7,\"Percent\":0.4}}}}}},\"selector\":{\"metadata\":\"Sum(Energy_Data.Appliances)\"}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.4}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 706.33,
+          "width": 184.81,
+          "x": 11.39,
+          "y": 81.01,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"7e1e18dcda1ec6760c16\",\"layouts\":[{\"id\":0,\"position\":{\"x\":717.7215189873417,\"y\":324.05063291139237,\"z\":6000,\"width\":554.4303797468355,\"height\":221.51898734177215,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Energy_Data.Internal Humidity (bins)\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Energy_Data.Confort Index)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Internal Humidity (bins)\"},\"Name\":\"Energy_Data.Internal Humidity (bins)\",\"NativeReferenceName\":\"Internal Humidity (bins)\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Confort Index\"}},\"Function\":0},\"Name\":\"Sum(Energy_Data.Confort Index)\",\"NativeReferenceName\":\"Count of Confort Index\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Confort Index\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"legend\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Humidity '\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Comfort Index vs Humidity '\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"heading\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 221.52,
+          "width": 554.43,
+          "x": 717.72,
+          "y": 324.05,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"8b4260704208ad586ace\",\"layouts\":[{\"id\":0,\"position\":{\"x\":717.7215189873417,\"y\":92.40506329113924,\"z\":3000,\"width\":555,\"height\":221.51898734177215,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"stackedAreaChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Energy_Data.lights)\"}],\"Category\":[{\"queryRef\":\"Energy_Data.Internal Humidity (bins)\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"lights\"}},\"Function\":0},\"Name\":\"Sum(Energy_Data.lights)\",\"NativeReferenceName\":\"Lights\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Internal Humidity (bins)\"},\"Name\":\"Energy_Data.Internal Humidity (bins)\",\"NativeReferenceName\":\"Internal Humidity (bins)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"lights\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(Energy_Data.lights)\":{\"displayName\":\"Lights\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Humidity '\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Lights vs Humidity '\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 221.52,
+          "width": 555.00,
+          "x": 717.72,
+          "y": 92.41,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"aa998c4906051c7d0086\",\"layouts\":[{\"id\":0,\"position\":{\"x\":197.46835443037975,\"y\":324.05063291139237,\"z\":8000,\"width\":510.126582278481,\"height\":221.51898734177215,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Energy_Data.Internal Humidity (bins)\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Energy_Data.Energy per Celicios)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Internal Humidity (bins)\"},\"Name\":\"Energy_Data.Internal Humidity (bins)\",\"NativeReferenceName\":\"Internal Humidity (bins)\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Energy per Celicios\"}},\"Function\":0},\"Name\":\"Sum(Energy_Data.Energy per Celicios)\",\"NativeReferenceName\":\"Sum of Energy per Celicios\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Energy per Celicios\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"legend\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Humidity '\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Energy per Day vs Humidity '\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 221.52,
+          "width": 510.13,
+          "x": 197.47,
+          "y": 324.05,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"ae726bdd5e2ed42b0056\",\"layouts\":[{\"id\":0,\"position\":{\"x\":717.7215189873417,\"y\":558.2278481012657,\"z\":2000,\"width\":554.4303797468355,\"height\":220.25316455696202,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Energy_Data.Index (bins)\",\"active\":true}],\"Y\":[{\"queryRef\":\"Avg(Energy_Data.Internal Temp)\"}],\"Tooltips\":[{\"queryRef\":\"Sum(Energy_Data.Hour)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Index (bins)\"},\"Name\":\"Energy_Data.Index (bins)\",\"NativeReferenceName\":\"Index \"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Internal Temp\"}},\"Function\":1},\"Name\":\"Avg(Energy_Data.Internal Temp)\",\"NativeReferenceName\":\"Internal Temp\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Hour\"}},\"Function\":0},\"Name\":\"Sum(Energy_Data.Hour)\",\"NativeReferenceName\":\"Sum of Hour\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Internal Temp\"}},\"Function\":1}}}]},\"columnProperties\":{\"Energy_Data.Index (bins)\":{\"displayName\":\"Index \"},\"Avg(Energy_Data.Internal Temp)\":{\"displayName\":\"Internal Temp\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"' Temprature Index '\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 220.25,
+          "width": 554.43,
+          "x": 717.72,
+          "y": 558.23,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"b1a2a82a9b1697a0c262\",\"layouts\":[{\"id\":0,\"position\":{\"x\":197.46835443037975,\"y\":89.87341772151899,\"z\":7000,\"width\":510,\"height\":224.0506329113924,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"stackedAreaChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Avg(Energy_Data.Internal Temp)\"}],\"Category\":[{\"queryRef\":\"Energy_Data.Total Energy\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Internal Temp\"}},\"Function\":1},\"Name\":\"Avg(Energy_Data.Internal Temp)\",\"NativeReferenceName\":\"Average of Internal Temp\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Total Energy\"},\"Name\":\"Energy_Data.Total Energy\",\"NativeReferenceName\":\"Total Energy\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Internal Temp\"}},\"Function\":1}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataPoint\":[{\"properties\":{}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"' Temprature vs Total Energy'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 224.05,
+          "width": 510.00,
+          "x": 197.47,
+          "y": 89.87,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"f6404651b270820b0738\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1016.4556962025316,\"y\":2.531645569620253,\"z\":5000,\"width\":255.69620253164555,\"height\":78.48101265822784,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Energy_Data.Date\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Date\"},\"Name\":\"Energy_Data.Date\",\"NativeReferenceName\":\"Date\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Date\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Energy_Data\",\"Type\":0}],\"Where\":[{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Date\"}},\"Right\":{\"Literal\":{\"Value\":\"datetime'2016-01-14T00:00:00'\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":3,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Date\"}},\"Right\":{\"Literal\":{\"Value\":\"datetime'2016-05-28T00:00:00'\"}}}}}}}]}}}}],\"selection\":[{\"properties\":{\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"data\":[{\"properties\":{\"startDate\":{\"expr\":{\"Literal\":{\"Value\":\"datetime'2016-01-14T00:30:26.470'\"}}},\"endDate\":{\"expr\":{\"Literal\":{\"Value\":\"datetime'2016-05-27T00:00:00'\"}}},\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Between'\"}}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"slider\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"general\":[{\"properties\":{\"keepLayerOrder\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"visualTooltip\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 78.48,
+          "width": 255.70,
+          "x": 1016.46,
+          "y": 2.53,
+          "z": 5000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ],
+  "theme": "Innovate"
+}
